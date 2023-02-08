@@ -1,0 +1,31 @@
+[{
+  "name": "Shell",
+  "email": "example-shell@gmail.com",
+  "website": "www.example-shell-site.com",
+  "gasStations": []
+}, {
+  "name": "OMV",
+  "email": "example-omv@gmail.com",
+  "website": "www.example-omv-site.com",
+  "gasStations": []
+}, {
+  "name": "Eko",
+  "email": "example-eko@gmail.com",
+  "website": "www.example-eko-site.com",
+  "gasStations": []
+}, {
+  "name": "Lukoil",
+  "email": "example-lukoil@gmail.com",
+  "website": "www.example-lukoil-site.com",
+  "gasStations": []
+}, {
+  "name": "Rompetrol",
+  "email": "example-rompetrol@gmail.com",
+  "website": "www.example-rompterol-site.com",
+  "gasStations": []
+}, {
+  "name": "Petrol",
+  "email": "example-petrol@gmail.com",
+  "website": "www.example-petrol-site.com",
+  "gasStations": []
+}]

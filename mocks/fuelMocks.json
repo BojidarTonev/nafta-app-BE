@@ -1,0 +1,30 @@
+[
+  {
+    "name":"Gasoline",
+    "averageMonthlyPrice":2.14,
+    "lastMonthAveragePrice":2.12,
+    "lastDateCalculatedAveragePrice":"12/01/2023",
+    "margin":0.02
+  },
+  {
+    "name":"Diesel",
+    "averageMonthlyPrice":2.52,
+    "lastMonthAveragePrice":2.33,
+    "lastDateCalculatedAveragePrice":"13/01/2023",
+    "margin":0.18
+  },
+  {
+    "name":"LPG",
+    "averageMonthlyPrice":1.96,
+    "lastMonthAveragePrice":1.93,
+    "lastDateCalculatedAveragePrice":"14/01/2023",
+    "margin":0.03
+  },
+  {
+    "name":"Methane",
+    "averageMonthlyPrice":3.14,
+    "lastMonthAveragePrice":3.10,
+    "lastDateCalculatedAveragePrice":"15/01/2023",
+    "margin":0.04
+  }
+]

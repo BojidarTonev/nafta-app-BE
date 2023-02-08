@@ -1,0 +1,468 @@
+[{
+  "name": "test station 1",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 1",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 2",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 3",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 4",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 5",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 6",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 7",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 8",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 9",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 10",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 11",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 12",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 13",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 14",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 15",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 16",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 17",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+}, {
+  "name": "test station 18",
+  "phoneNumber": "0762950017",
+  "location": "някъде в България",
+  "lat": 123,
+  "len": 123,
+  "availableFuels": [{
+    "fuelType": "Gasoline",
+    "averagePrice": 2.12,
+    "margin": 0.02
+  }, {
+    "fuelType": "Diesel",
+    "averagePrice": 2.54,
+    "margin": 0.03
+  }, {
+    "fuelType": "LPG",
+    "averagePrice": 1.78,
+    "margin": 0.21
+  }, {
+    "fuelType": "Methane",
+    "averagePrice": 4.02,
+    "margin": 0.31
+  }]
+},
+  {
+    "name": "test station 19",
+    "phoneNumber": "0762950017",
+    "location": "някъде в България",
+    "lat": 123,
+    "len": 123,
+    "availableFuels": [
+      {
+        "fuelType": "Gasoline",
+        "averagePrice": 2.12,
+        "margin": 0.02
+      },
+      {
+        "fuelType": "Diesel",
+        "averagePrice": 2.54,
+        "margin": 0.03
+      },
+      {
+        "fuelType": "LPG",
+        "averagePrice": 1.78,
+        "margin": 0.21
+      },
+      {
+        "fuelType": "Methane",
+        "averagePrice": 4.02,
+        "margin": 0.31
+      }
+    ]
+  }
+]
