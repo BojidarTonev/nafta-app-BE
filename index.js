@@ -7,6 +7,7 @@ import expressConfig from './config/express.js';
 import routesConfig from './config/routes.js';
 
 dbConnection().then(() => {
+    console.log('test => ');
     const app = express();
 
     expressConfig(app);
