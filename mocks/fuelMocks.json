@@ -1,13 +1,23 @@
 [
   {
-    "name":"Gasoline",
+    "name":"Gasoline A100",
+    "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png",
     "averageMonthlyPrice":2.14,
     "lastMonthAveragePrice":2.12,
     "lastDateCalculatedAveragePrice":"12/01/2023",
     "margin":0.02
   },
   {
+    "name":"Gasoline A95",
+    "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png",
+    "averageMonthlyPrice":2.16,
+    "lastMonthAveragePrice":2.11,
+    "lastDateCalculatedAveragePrice":"12/01/2023",
+    "margin":0.05
+  },
+  {
     "name":"Diesel",
+    "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png",
     "averageMonthlyPrice":2.52,
     "lastMonthAveragePrice":2.33,
     "lastDateCalculatedAveragePrice":"13/01/2023",
@@ -15,6 +25,7 @@
   },
   {
     "name":"LPG",
+    "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png",
     "averageMonthlyPrice":1.96,
     "lastMonthAveragePrice":1.93,
     "lastDateCalculatedAveragePrice":"14/01/2023",
@@ -22,6 +33,7 @@
   },
   {
     "name":"Methane",
+    "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1676133503/methane_zekj31.png",
     "averageMonthlyPrice":3.14,
     "lastMonthAveragePrice":3.10,
     "lastDateCalculatedAveragePrice":"15/01/2023",
