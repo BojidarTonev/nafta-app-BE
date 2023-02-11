@@ -4,109 +4,86 @@ import FUELS_JSON from './mocks/fuelMocks.json' assert { type: 'json' };
 import GAS_COMPANIES_JSON from './mocks/gasCompaniesMocks.json' assert { type: 'json' };
 import GAS_STATIONS_JSON from './mocks/gasStationsMocks.json' assert { type: 'json' };
 
-const gasCompanyIds = [];
-
 // create functions
-const createFuel = (fuel) => {
-    return models.Fuel.create(fuel)
-        .then((docFuel) => {
-            console.log('\\n>> Created Fuel:\\n', docFuel);
-            return docFuel;
-        })
-        .catch((err) => {
-            throw new Error(`\\n>> Error creating Fuel:\\n ${err}`);
-        })
+const createFuel = async (fuel) => {
+    const docFuel = await models.Fuel.create(fuel)
+        .catch((err) => console.log(`\\n>> Error creating Fuel:\\n ${err}`));
+
+    return docFuel;
 };
 
-const createGasCompany = (gasCompany) => {
-    return models.GasCompany.create(gasCompany)
-        .then((docGasCompany) => {
-            console.log('\\n>> Created Gas Company:\\n', docGasCompany);
-            return docGasCompany;
-        })
-        .catch((err) => {
-            throw new Error(`\\n>> Error creating Gas Company:\\n ${err}`);
-        })
+const createGasCompany = async (gasCompany) => {
+    const docGasCompany = await models.GasCompany.create(gasCompany)
+        .catch((err) => console.log(`\\n>> Error creating Gas Company:\\n ${err}`));
+
+    return docGasCompany;
 };
 
-const createGasStation = (gasCompanyId, gasStation) => {
-    return models.GasStation.create(gasStation)
-        .then((docGasStation) => {
-            console.log('\\n>> Created Gas Station:\\n', docGasStation);
-            return models.GasCompany.findByIdAndUpdate(
-                gasCompanyId,
-                {
-                    $push: {
-                        gasStations: {
-                            _id: docGasStation._id,
-                            name: docGasStation.name,
-                            phoneNumber: docGasStation.phoneNumber,
-                            location: docGasStation.location,
-                            lat: docGasStation.lat,
-                            len: docGasStation.len,
-                            availableFuels: docGasStation.availableFuels
-                        }
-                    }
-                },
-                { new: true, useFindAndModify: false }
-            )
-        })
-        .catch((err) => {
-            throw new Error(`\\n>> Error creating Gas Station:\\n ${err}`);
-        })
+const createGasStation = async (gasCompanyId, gasStation) => {
+    const docGasStation = await models.GasStation.create(gasStation)
+        .catch((err) =>  console.log(`\\n>> Error creating Gas Station:\\n ${err}`));
+
+    await models.GasCompany.findByIdAndUpdate(gasCompanyId, {
+        $push: {
+            gasStations: {
+                _id: docGasStation._id,
+                name: docGasStation.name,
+                phoneNumber: docGasStation.phoneNumber,
+                location: docGasStation.location,
+                lat: docGasStation.lat,
+                len: docGasStation.len,
+                availableFuels: docGasStation.availableFuels
+            }
+        }
+    }, { new: true, useFindAndModify: false });
+
+    return docGasStation;
 };
 
 // populate functions
-const populateFuels = () => {
-    return new Promise((resolve, reject) => {
-        models.Fuel.findOne().then( (res) => {
-            if(!res) {
-                for (const f of FUELS_JSON) {
-                    createFuel(f)
-                        .catch((err) => reject(err));
-                }
-                resolve();
-            }
-            resolve();
-        })
-    })
+const populateFuels = async () => {
+    const hasFuelsDataInDb = await models.Fuel.findOne();
+
+    if(!hasFuelsDataInDb) {
+        for (const f of FUELS_JSON) {
+            await createFuel(f);
+        }
+        console.log('populated fuels!')
+    }
 };
 
-const populateGasCompanies = () => {
-    return new Promise((resolve, reject) => {
-        models.GasCompany.findOne().then((res) => {
-            if(!res) {
-                for(const gc of GAS_COMPANIES_JSON) {
-                    createGasCompany(gc)
-                        .then((gasCompany) => {
-                            gasCompanyIds.push(gasCompany._id);
-                        })
-                        .catch((err) => reject(err));
-                }
-                resolve();
-            }
-            resolve();
-        })
-    })
+const populateGasCompanies = async () => {
+    const gasCompanyIds = [];
+    const hasGasCompaniesDataInDb = await models.GasCompany.findOne();
+
+    if(!hasGasCompaniesDataInDb) {
+        for(const gc of GAS_COMPANIES_JSON) {
+            const gasCompany = await createGasCompany(gc);
+            gasCompanyIds.push(gasCompany._id);
+        }
+        console.log('populated gas companies!')
+    }
+
+    return gasCompanyIds;
 };
 
-const populateGasStations = () => {
-    return new Promise((resolve, reject) => {
-        models.GasStation.findOne().then( (res) => {
-            if(!res) {
-                for(const gs of GAS_STATIONS_JSON) {
-                    createGasStation(gasCompanyIds[Math.floor(Math.random()*GAS_STATIONS_JSON.length)], gs)
-                        .catch((err) => reject(err));;
-                }
-                resolve();
-            }
-            resolve();
-        })
-    })
+const populateGasStations = async (gasCompanyIds) => {
+    const hasGasStationsDataInDb = await models.GasStation.findOne();
+
+    if(!hasGasStationsDataInDb) {
+        for(const gs of GAS_STATIONS_JSON) {
+            const randomIndex = Math.floor(Math.random()*GAS_STATIONS_JSON.length) === 0 ?
+                Math.floor(Math.random()*GAS_STATIONS_JSON.length) + 1 :
+                Math.floor(Math.random()*GAS_STATIONS_JSON.length);
+
+            await createGasStation(gasCompanyIds[randomIndex], gs);
+        }
+        console.log('populated gas stations!')
+    }
 }
 
-export const populateDatabaseFunction = () => {
-    return Promise.all([populateFuels(), populateGasCompanies(), populateGasStations()])
-        .then(() => console.log('Database successfully seeded with mock data!!!'))
-        .catch(() => new Error('seeding of db failed with error'));
+export const populateDatabaseFunction = async () => {
+    await populateFuels();
+    const gasCompanyIds = await populateGasCompanies();
+    await populateGasStations(gasCompanyIds);
 }

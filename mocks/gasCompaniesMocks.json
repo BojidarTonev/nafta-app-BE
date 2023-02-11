@@ -1,31 +1,205 @@
 [{
   "name": "Shell",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829074/shell-logo_nx4oib.png",
   "email": "example-shell@gmail.com",
   "website": "www.example-shell-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    }
+  ]
 }, {
   "name": "OMV",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829068/omv-logo_kzqsci.png",
   "email": "example-omv@gmail.com",
   "website": "www.example-omv-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    },
+    {
+      "fuel": "LPG",
+      "averagePrice": 1.86,
+      "margin": 0.05,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png"
+    }
+  ]
 }, {
   "name": "Eko",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829061/eko-logo_pmmslw.png",
   "email": "example-eko@gmail.com",
   "website": "www.example-eko-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    },
+    {
+      "fuel": "LPG",
+      "averagePrice": 1.86,
+      "margin": 0.05,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png"
+    }
+  ]
 }, {
   "name": "Lukoil",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829066/lukoil-logo_rxqrn5.png",
   "email": "example-lukoil@gmail.com",
   "website": "www.example-lukoil-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    },
+    {
+      "fuel": "LPG",
+      "averagePrice": 1.86,
+      "margin": 0.05,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png"
+    },
+    {
+      "fuel": "Methane",
+      "averagePrice": 3.86,
+      "margin": 0.12,
+      "imageSrc": ""
+    }
+  ]
 }, {
   "name": "Rompetrol",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829072/rompetrol-logo_m3plag.png",
   "email": "example-rompetrol@gmail.com",
   "website": "www.example-rompterol-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    },
+    {
+      "fuel": "LPG",
+      "averagePrice": 1.86,
+      "margin": 0.05,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png"
+    },
+    {
+      "fuel": "Methane",
+      "averagePrice": 3.86,
+      "margin": 0.12,
+      "imageSrc": ""
+    }
+  ]
 }, {
   "name": "Petrol",
+  "imageUrl": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675829070/petrol-logo_vuiwji.png",
   "email": "example-petrol@gmail.com",
   "website": "www.example-petrol-site.com",
-  "gasStations": []
+  "gasStations": [],
+  "fuels": [
+    {
+      "fuel": "Gasoline A95",
+      "averagePrice": 2.47,
+      "margin": 0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994937/a95_vwsowd.png"
+    },
+    {
+      "fuel": "Gasoline A100",
+      "averagePrice": 2.79,
+      "margin": 0,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994941/a100_suek9h.png"
+    },
+    {
+      "fuel": "Diesel",
+      "averagePrice": 2.86,
+      "margin": -0.02,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675994943/diesel_wldnbs.png"
+    },
+    {
+      "fuel": "LPG",
+      "averagePrice": 1.86,
+      "margin": 0.05,
+      "imageSrc": "https://res.cloudinary.com/dsvitxv34/image/upload/v1675995831/lpg_mbcrxq.png"
+    },
+    {
+      "fuel": "Methane",
+      "averagePrice": 3.86,
+      "margin": 0.12,
+      "imageSrc": ""
+    }
+  ]
 }]
