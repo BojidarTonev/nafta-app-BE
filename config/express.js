@@ -5,7 +5,7 @@ import cors from "cors";
 export default (app) => {
     app.use(
         cors({
-            origin: "http://localhost:19000",
+            origin: "http://192.168.1.7:8000",
             credentials: true
         })
     );

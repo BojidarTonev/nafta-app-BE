@@ -4,7 +4,7 @@ const Fuel = mongoose.model(
     "Fuel",
     new mongoose.Schema({
         name: String,
-        image: String,
+        imageUrl: String,
         averageMonthlyPrice: Number,
         lastMonthAveragePrice: Number,
         margin: Number,
