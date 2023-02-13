@@ -5,20 +5,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -28,20 +24,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -51,20 +43,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -74,20 +62,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -97,20 +81,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -120,20 +100,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -143,20 +119,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -166,20 +138,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -189,20 +157,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -213,19 +177,16 @@
   "len": 123,
   "availableFuels": [{
     "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -235,20 +196,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -258,20 +215,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -281,20 +234,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -304,20 +253,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -327,20 +272,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -350,20 +291,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -373,20 +310,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -396,20 +329,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 }, {
@@ -419,20 +348,16 @@
   "lat": 123,
   "len": 123,
   "availableFuels": [{
-    "fuelType": "Gasoline",
-    "averagePrice": 2.12,
+    "price": 2.12,
     "margin": 0.02
   }, {
-    "fuelType": "Diesel",
-    "averagePrice": 2.54,
+    "price": 2.54,
     "margin": 0.03
   }, {
-    "fuelType": "LPG",
-    "averagePrice": 1.78,
+    "price": 1.78,
     "margin": 0.21
   }, {
-    "fuelType": "Methane",
-    "averagePrice": 4.02,
+    "price": 4.02,
     "margin": 0.31
   }]
 },
@@ -444,23 +369,19 @@
     "len": 123,
     "availableFuels": [
       {
-        "fuelType": "Gasoline",
-        "averagePrice": 2.12,
+        "price": 2.12,
         "margin": 0.02
       },
       {
-        "fuelType": "Diesel",
-        "averagePrice": 2.54,
+        "price": 2.54,
         "margin": 0.03
       },
       {
-        "fuelType": "LPG",
-        "averagePrice": 1.78,
+        "price": 1.78,
         "margin": 0.21
       },
       {
-        "fuelType": "Methane",
-        "averagePrice": 4.02,
+        "price": 4.02,
         "margin": 0.31
       }
     ]

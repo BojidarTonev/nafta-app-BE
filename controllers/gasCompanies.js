@@ -21,6 +21,17 @@ export const getGasCompanyById = async (req, res, next) => {
     }
 }
 
+export const getCompaniesByFuelName = (req, res, next) => {
+    const {name} = req.params;
+    try {
+        GasCompany.find({ fuels: { $elemMatch: { fuel: name }} })
+            .then((gc) => res.send(gc))
+            .catch(next)
+    } catch (err) {
+        res.status(500).json({message: err.message});
+    }
+}
+
 // export const getGasCompanyGasStations = async (req, res, next) => {
 //     const {id} = req.params;
 //     const gasCompanyGasStations = [];

@@ -19,11 +19,18 @@ const createGasCompany = async (gasCompany) => {
     return docGasCompany;
 };
 
-const createGasStation = async (gasCompanyId, gasStation) => {
-    const docGasStation = await models.GasStation.create(gasStation)
+const createGasStation = async (gasCompany, fuels,  gasStation) => {
+    const { availableFuels } = gasStation;
+
+    const fuelValues = availableFuels.map((fuel) => {
+        const randomFuelIndex = Math.floor(Math.random()*fuels.length);
+        return { ...fuel, fuelName: fuels[randomFuelIndex].name}
+    });
+
+    const docGasStation = await models.GasStation.create({...gasStation, availableFuels: []})
         .catch((err) =>  console.log(`\\n>> Error creating Gas Station:\\n ${err}`));
 
-    await models.GasCompany.findByIdAndUpdate(gasCompanyId, {
+    await models.GasCompany.findByIdAndUpdate(gasCompany._id, {
         $push: {
             gasStations: {
                 _id: docGasStation._id,
@@ -35,55 +42,71 @@ const createGasStation = async (gasCompanyId, gasStation) => {
                 availableFuels: docGasStation.availableFuels
             }
         }
-    }, { new: true, useFindAndModify: false });
+    }, { new: true, useFindAndModify: false })
+        .catch((err) => console.log('error in updating gas company -> gas stations array', err));
+
+    await models.GasStation.findByIdAndUpdate(docGasStation._id, {
+        brandName: gasCompany.name,
+        brandImageUrl: gasCompany.imageUrl,
+        $push: {
+            availableFuels: {
+                $each: [...fuelValues]
+            }
+        }
+    }, { new: true, useFindAndModify: false })
+        .catch((err) => console.log('error in updating the available fuels field in gas stations => ', err));
 
     return docGasStation;
 };
 
 // populate functions
 const populateFuels = async () => {
+    const fuels = [];
     const hasFuelsDataInDb = await models.Fuel.findOne();
 
     if(!hasFuelsDataInDb) {
         for (const f of FUELS_JSON) {
-            await createFuel(f);
+            const fuel = await createFuel(f);
+            fuels.push(fuel);
         }
         console.log('populated fuels!')
     }
+
+    return fuels;
 };
 
 const populateGasCompanies = async () => {
-    const gasCompanyIds = [];
+    const gasCompanies = [];
     const hasGasCompaniesDataInDb = await models.GasCompany.findOne();
 
     if(!hasGasCompaniesDataInDb) {
         for(const gc of GAS_COMPANIES_JSON) {
             const gasCompany = await createGasCompany(gc);
-            gasCompanyIds.push(gasCompany._id);
+            gasCompanies.push(gasCompany);
         }
         console.log('populated gas companies!')
     }
 
-    return gasCompanyIds;
+    return gasCompanies;
 };
 
-const populateGasStations = async (gasCompanyIds) => {
+const populateGasStations = async (gasCompanies, fuels) => {
     const hasGasStationsDataInDb = await models.GasStation.findOne();
 
     if(!hasGasStationsDataInDb) {
         for(const gs of GAS_STATIONS_JSON) {
-            const randomIndex = Math.floor(Math.random()*GAS_STATIONS_JSON.length) === 0 ?
-                Math.floor(Math.random()*GAS_STATIONS_JSON.length) + 1 :
-                Math.floor(Math.random()*GAS_STATIONS_JSON.length);
+            const randomIndex = Math.floor(Math.random()*GAS_COMPANIES_JSON.length - 1) === 0 ?
+                Math.floor(Math.random()*GAS_COMPANIES_JSON.length) + 1 :
+                Math.floor(Math.random()*GAS_COMPANIES_JSON.length);
 
-            await createGasStation(gasCompanyIds[randomIndex], gs);
+            await createGasStation(gasCompanies[randomIndex], fuels, gs);
         }
         console.log('populated gas stations!')
     }
 }
 
 export const populateDatabaseFunction = async () => {
-    await populateFuels();
-    const gasCompanyIds = await populateGasCompanies();
-    await populateGasStations(gasCompanyIds);
+    const fuels = await populateFuels();
+    const gasCompanies = await populateGasCompanies();
+    await populateGasStations(gasCompanies, fuels);
 }
